@@ -1,0 +1,14 @@
+
+.products .addBtn{
+    background: green;
+    color:#FFF;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.products .product:hover .addBtn{
+    opacity: 1;
+}
+/* bg-main text-white w-100 btn-sm mt-2 */

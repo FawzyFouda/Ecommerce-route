@@ -1,0 +1,10 @@
+.slider-top{
+   margin-top: 150px;
+}
+.slider-left{
+    max-width: 416px;
+    min-width: 416px;
+}
+.slider-left{
+  user-select: none;
+}
