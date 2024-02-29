@@ -24,7 +24,6 @@ function Products() {
     if(response.data.status == 'success'){
       toast.success(response.data.message);
     }
-    console.log(response)
   }
 
   function getFeaturedProduct(){
@@ -73,9 +72,6 @@ function Products() {
           </div>
         </div>
         )
-        }
-        {
-          console.log(data)
         }
       </div>
       <ToastContainer />

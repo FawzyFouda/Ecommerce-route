@@ -26,7 +26,7 @@ function Allorders() {
     
         <div className='cart d-flex flex-column align-items-center'>
             {
-              allOrders?.map((ele,idx) => {
+              allOrders.data?.map((ele,idx) => {
                 return <>
               <div className='w-100 d-flex border-bottom mb-3 pb-3 align-items-center' key={idx}>
                 <div className='product-img col-md-2'><img src={ele.imageCover} alt={ele.title} className=' w-75'/></div>

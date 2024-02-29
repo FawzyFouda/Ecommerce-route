@@ -20,7 +20,6 @@ let headers = {
 useEffect(() => {
   getCartId()
 },[])
-console.log(cartId)
   function addToCart(productId){
     return axios.post('https://ecommerce.routemisr.com/api/v1/cart',
       {productId},{headers}).then((res) => res).catch((error) => error)
